@@ -11,11 +11,10 @@ export class CodementorsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-    //this.ala();
-  }
+  ngOnInit(): void {}
+
 
   ala(){
-    alert("ala ma kota");
+    alert(this.name);
   }
 }
