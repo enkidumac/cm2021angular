@@ -10,6 +10,10 @@ export class CodementorsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    //this.ala();
   }
 
+  ala(){
+    alert("ala ma kota");
+  }
 }
