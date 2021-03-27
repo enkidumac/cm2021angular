@@ -1,3 +1,4 @@
+import { Student } from './student';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cmAngular';
+  name1 = 'Sylwia';
+  student = new Student("Łukasz");
 }
