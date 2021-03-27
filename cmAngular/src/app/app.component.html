@@ -1,4 +1,9 @@
 <p>Witamy w {{title}}!</p>
-<app-codementors name="Pawelek"></app-codementors>
-<app-codementors name="Lukaszek"></app-codementors>
+
+<p>Cześć {{name1}}</p>
+<p>Cześć {{student.name}} - student</p>
+<app-codementors [name]="name1"></app-codementors>
+<app-student-details [student]="student"></app-student-details>
+<app-calculator></app-calculator>
+
 <app-calculator></app-calculator>
