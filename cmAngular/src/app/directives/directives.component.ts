@@ -10,6 +10,12 @@ export class DirectivesComponent implements OnInit {
 
   isHungry = true;
   color = Colors.Black;
+
+  favoriteFoods: string[] = [
+    'pad thai',
+    'ramen',
+    'burgers'
+  ]
   constructor() { }
 
   ngOnInit(): void {
