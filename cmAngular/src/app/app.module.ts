@@ -8,6 +8,7 @@ import { StudentDetailsComponent } from './student-details/student-details.compo
 import { CalculatorComponent } from './calculator/calculator.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { StudentListComponent } from './components/student-list/student-list.component';
+import { ListOfStudentsComponent } from './list-of-students/list-of-students.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { StudentListComponent } from './components/student-list/student-list.com
     CalculatorComponent,
     DirectivesComponent,
     StudentListComponent,
+    ListOfStudentsComponent,
   ],
   imports: [
     BrowserModule,
