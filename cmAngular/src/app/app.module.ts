@@ -9,6 +9,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { StudentListComponent } from './components/student-list/student-list.component';
 import { ListOfStudentsComponent } from './list-of-students/list-of-students.component';
+import { StudentViewComponent } from './student-view/student-view.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ListOfStudentsComponent } from './list-of-students/list-of-students.com
     DirectivesComponent,
     StudentListComponent,
     ListOfStudentsComponent,
+    StudentViewComponent,
   ],
   imports: [
     BrowserModule,

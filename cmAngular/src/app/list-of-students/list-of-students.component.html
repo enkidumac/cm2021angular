@@ -2,6 +2,8 @@
 
 <ol>
   <li *ngFor="let student of students">
-    <app-student-details [student]="student"></app-student-details>
+    <app-student-view [student]="student" (selectedStudent)="selectedStudentFunc($event)"></app-student-view>
   </li>
 </ol>
+
+<app-student-details *ngIf="selectStudent" [student]='selectStudent'></app-student-details>
