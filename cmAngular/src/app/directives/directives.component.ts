@@ -1,4 +1,4 @@
-import { Colors } from './../colors.enum';
+import { Colors } from '../enums/colors.enum';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

@@ -7,6 +7,7 @@ import { CodementorsComponent } from './codementors/codementors.component';
 import { StudentDetailsComponent } from './student-details/student-details.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { DirectivesComponent } from './directives/directives.component';
+import { StudentListComponent } from './components/student-list/student-list.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DirectivesComponent } from './directives/directives.component';
     CodementorsComponent,
     StudentDetailsComponent,
     CalculatorComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    StudentListComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
-import { Student } from './../student';
+
 import { Component, Input, OnInit } from '@angular/core';
+import { Student } from '../models/student';
 
 @Component({
   selector: 'app-student-details',
