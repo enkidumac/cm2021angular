@@ -1,3 +1,4 @@
+import { IfStmt } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,17 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CalculatorComponent implements OnInit {
 
-  value1: number = 0;
-  value2: number = 0;
+  value1?: number;
+  value2?: number;
   result: number = 0;
 
-    constructor() { }
+  constructor() { }
 
   ngOnInit(): void {
   }
 
-  plus(){
-    this.result = this.value1 + this.value2;
+  plus() {
+    if (this.value1 && this.value2) {
+      this.result = this.value1 + this.value2;
+    }
   }
 
 }

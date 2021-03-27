@@ -1,0 +1,16 @@
+<div *ngIf="isHungry">Very hungry</div>
+<button (click)="hungry()">Change hungry</button>
+<div [ngSwitch]="color">
+  <p *ngSwitchCase="'brown'">Brown</p>
+  <p *ngSwitchCase="'black'">Black</p>
+  <p *ngSwitchCase="'grey'">Grey</p>
+</div>
+<!--<div>
+  <p>Favorite food</p>
+  <ul>
+    <li *ngFor="let food of favoriteFoods">
+      {{food}}
+    </li>
+  </ul>
+</div>
+-->
