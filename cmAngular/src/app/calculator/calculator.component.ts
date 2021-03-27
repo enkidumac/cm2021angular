@@ -17,10 +17,36 @@ export class CalculatorComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  plus() {
-    if (this.value1 && this.value2) {
-      this.result = this.value1 + this.value2;
-    }
+  plus(){
+   if(this.value1 &&  this.value2){
+
+    this.result = this.value1 + this.value2;
+
+   }
+  }
+
+  minus(){
+    if(this.value1 &&  this.value2){
+
+      this.result = this.value1 - this.value2;
+
+     }
+  }
+
+  multiplic(){
+    if(this.value1 &&  this.value2){
+
+      this.result = this.value1 * this.value2;
+
+     }
+  }
+
+  division(){
+    if(this.value1 &&  this.value2){
+
+      this.result = this.value1 / this.value2;
+
+     }
   }
 
 }
